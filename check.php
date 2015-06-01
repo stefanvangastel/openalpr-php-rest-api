@@ -3,12 +3,6 @@
 define('DS',DIRECTORY_SEPARATOR);
 
 /**
- * Set default vars
- */
-$response['message']= '';
-$response['data'] 	= array();
-
-/**
  * Check tmp dir and write permissions
  */
 if( ! file_exists('tmp') ){
